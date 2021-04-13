@@ -1,2 +1,2 @@
-# Pewlett-Hackard-Analysis-Queries
+# Pewlett-Hackard-Analysis
 Database using Postgres and pgAdmin
