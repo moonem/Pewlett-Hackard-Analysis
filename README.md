@@ -37,7 +37,7 @@ To obtain the required information (i.e. the number of retiring employees with t
     
   Step-2:
   
-   As shown in Fig. 2, there are some employee names appearing multiple time because of their *title* of job at different times. A query is formed using DISTINCT ON and ORDER BY commands on the *emp_no* column in the previously formed *retirement_titles* table. The output of this query is stored in a new table **unique_titles* as shown below.
+   As shown in Fig. 2, there are some employee names appearing multiple times because of their *title* of job at different times. A query is formed using DISTINCT ON and ORDER BY commands on the *emp_no* column in the previously formed *retirement_titles* table. The output of this query is stored in a new table **unique_titles** as shown below.
    
    ![unique_titles](/Resources/unique_titles.png)
     
@@ -61,7 +61,7 @@ Step-3:
     
  ## Summary
  
- Besides the the tables shown in Figs. 2 to 5, two more tables have been created to get more insight on the employee retirement status. The **emp_info** table has a comprehensive view of the current employees born between 1952 and 1955, and who were hired between 1985 to 1988.
+ Besides the the tables shown in Figs. 2 to 5, a few more tables have been created to get more insight on the employee retirement status. Such as, the **emp_info** table has a comprehensive view of the current employees born between 1952 and 1955, and who were hired between 1985 to 1988.
  
   ![emp_info](/Resources/emp_info.png)
     
