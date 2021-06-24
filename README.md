@@ -37,9 +37,9 @@ To obtain the required information (i.e. the number of retiring employees with t
     
   Step-2:
   
-   As shown in Fig. 2, there are some employee names appearing multiple time because of their *title* of job at different times. A query is formed using DISTINCT ON and ORDER BY commands on the *emp_no* column in the previously formed *retirement_titles* table. The output of this query is stored in a new table **unique_titles* as shown below.
+   As shown in Fig. 2, there are some employee names appearing multiple times because of their *title* of job at different times. A query is formed using DISTINCT ON and ORDER BY commands on the *emp_no* column in the previously formed *retirement_titles* table. The output of this query is stored in a new table **unique_titles** as shown below.
    
-   ![unique_titles](/unique_titles.png)
+   ![unique_titles](/Resources/unique_titles.png)
     
     Fig. 3. SQL code and the table "unique_titles" for employees born between 1952 and 1955 with their latest job-title.
    
@@ -47,7 +47,7 @@ Step-3:
   
    To acquire the count of employees under each of the titles, a DISTINCT COUNT and GROUP BY query is carried out on the *title* column in the previously formed table *unique_title*. The output of this query is stored in a new table **retiring_titles** as shown below.
    
-   ![retiring_titles](/retiring_titles.png)
+   ![retiring_titles](/Resources/retiring_titles.png)
     
     Fig. 4. SQL code and the table "retiring_titles" for retiring employees grouped under 7 different job-titles.
     
@@ -55,25 +55,25 @@ Step-3:
   
    A query is written and executed to create a Mentorship Eligibility table for current employees who were born between January 1, 1965 and December 31, 1965. The output of this query is stored in a new table **mentorship_eligibility** as shown below. The left side of Fig. 5 shows all the 14 tables in the **PH_EmployeeDB** database including the 6 basic tables we started our analysis with.
    
-   ![mentorship_eligibility](/mentorship_eligibility.png)
+   ![mentorship_eligibility](/Resources/mentorship_eligibility.png)
     
     Fig. 5. SQL code and the table "mentorship_eligibility" for retiring employees born in 1965.
     
  ## Summary
  
- Besides the the tables shown in Figs. 2 to 5, two more tables have been created to get more insight on the employee retirement status. The **emp_info** table has a comprehensive view of the current employees born between 1952 and 1955, and who were hired between 1985 to 1988.
+ Besides the the tables shown in Figs. 2 to 5, a few more tables have been created to get more insight on the employee retirement status. Such as, the **emp_info** table has a comprehensive view of the current employees born between 1952 and 1955, and who were hired between 1985 to 1988.
  
-  ![emp_info](/emp_info.png)
+  ![emp_info](/Resources/emp_info.png)
     
     Fig. 6. SQL code and the table "emp_info" for current employees born between 1952 and 1955, and got hired between 1985 and 1988.
     
  Another table named **manager_info** was formed to get the name of the managers and their respective department names as shown below.
  
-  ![manager_info](/manager_info.png)
+  ![manager_info](/Resources/manager_info.png)
     
     Fig. 7. SQL code and the table "manager_info" for the manager and their department names.
     
- *Note* - The "INTO file_name" command in the code-block is shown as commented-out in Figs. 2 to 7. This is done to run the query and show the query result in the *Data Output* pane within the *PgAdmin* window. The INTO command is executed to store the respective output data into corresponding tables. All these tables are stored as *.csv* files in a common folder.
+ *Note* - The "INTO file_name" command in the code-block is shown as commented-out in Figs. 2 to 7. This is done to run the query and show the query result in the *Data Output* pane within the *PgAdmin* window. The INTO command is executed to store the respective output data into corresponding tables. All these tables are stored as *.csv* files in a common *Data* folder. All the snapshot of tables are stored in the *Resources* folder.
  
  
  
