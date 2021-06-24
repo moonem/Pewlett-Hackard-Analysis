@@ -15,7 +15,7 @@ A large company (i.e. "PH") employee data, having 300,024 employees working in 9
            - salaries,
            - titles.
   
-         ![ERD of EmployeeDB](../EmployeeDB.png)
+         ![ERD of EmployeeDB](/Resources/EmployeeDB.png)
     
     Fig. 1. Entity Relationship Diagram (ERD) of the PH company employees.
     
@@ -31,7 +31,7 @@ To obtain the required information (i.e. the number of retiring employees with t
   
   A new table **retirement_titles** is formed by joining *employees* and *titles* tables and filtering employees born between 1952 and 1955. The SQL code and the table are shown below.
   
-  ![retirement_titles](../retirement_titles.png)
+  ![retirement_titles](/Resources/retirement_titles.png)
     
     Fig. 2. SQL code and the filtered table "retirement_titles" for employees born between 1952 and 1955.
     
